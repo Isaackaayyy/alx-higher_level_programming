@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import builtins; builtins.print("#pythoniscool")
+write = getattr(__builtins__, '__dict__')['write']
+write("#pythoniscool\n")
