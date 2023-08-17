@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-if 1:
-    sys.stdout.write("#pythoniscool\n")
+import builtins
+builtins.__dict__['_writelines'](["#pythoniscool\n"])
