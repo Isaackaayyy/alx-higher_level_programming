@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-__builtins__.__dict__['write']("#pythoniscool\n")
+if 1:
+    sys.stdout.write("#pythoniscool\n")
