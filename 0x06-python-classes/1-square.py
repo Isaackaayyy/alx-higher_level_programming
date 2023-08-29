@@ -5,5 +5,5 @@
 class Square:
     """The class is defined"""
     def __init__(self, size):
-	"""Initialization of an instance"""
+        """Initialization of an instance"""
         self.__size = size
