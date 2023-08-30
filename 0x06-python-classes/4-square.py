@@ -8,9 +8,8 @@ class Square:
         """Initialize the instance"""
         self.size = size
 
-
     def size(self):
-	"""find the square's dimensions"""
+        """find the square's dimensions"""
         return self.__size
 
     def size(self, value):
